@@ -25,6 +25,19 @@
     opacity: 0.4;
     font-size: 80px;
   }
+  .cover-ep {
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+  }
+  .first-ep {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .title-first-ep {
+
+    margin-bottom: 30px;
+  }
     
 }
 @media screen and (min-width: 769px) {
