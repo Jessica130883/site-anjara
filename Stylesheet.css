@@ -3,11 +3,32 @@
     padding: 0;
 }
 
-@media  screen and (max-width: 669px) {
+@media  screen and (max-width: 480px) {
 
-    .boucle-video {
-        height: 100px;
-        width: 100px;
-    }
+  video {
+    display: none;
+  }
+
+  .background-header {
+    height: 300px;
+    width: 100%;
+  }
+  .photo-header {
+    position: relative;
+  }
+  .title-name {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    color: pink;
+    opacity: 0.4;
+    font-size: 80px;
+  }
     
+}
+@media screen and (min-width: 769px) {
+
+    
+   
 }
