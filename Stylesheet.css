@@ -33,10 +33,20 @@
   .first-ep {
     text-align: center;
     padding-top: 50px;
+    margin-bottom: 70px;
   }
   .title-first-ep {
 
     margin-bottom: 30px;
+  }
+  .button-box {
+    margin-top: 20px;
+  }
+  .click-button {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
   }
     
 }
