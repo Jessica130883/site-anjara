@@ -48,6 +48,24 @@
     border-radius: 20px;
     border: none;
   }
+  .bio {
+    text-align: center;
+  }
+  .title-bio {
+    margin-bottom: 10px;
+  }
+  .bio-text {
+    margin-bottom: 30px;
+  }
+  .bio-button {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+  }
+  .click-bio {
+    margin-bottom: 30px;
+  }
     
 }
 @media screen and (min-width: 769px) {
