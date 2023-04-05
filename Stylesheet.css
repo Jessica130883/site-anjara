@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-@media  screen and (max-width: 480px) {
+@media  screen and (max-width: 768px) {
 
   video {
     display: none;
@@ -83,16 +83,10 @@
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  .gig-date-two {
-    height: 40px;
-    width: 200px;
+  td {
     border-top: 1px solid black;
-    margin-top: 30px;
   }
-  .gig-place {
-    margin-bottom: 30px;
-  }
-}
+ 
 .socials {
     display: inline-block;
 }
@@ -113,8 +107,41 @@
 .contact-mgt {
     margin-bottom: 30px;
 }
+}
 @media screen and (min-width: 769px) {
 
-    
+  .socials {
+    display: inline-block;
+}
+.socials-box {
+  text-align: center;
+  margin-top: 10px;
+}
+.photo-header {
+  display: none;
+}
+video {
+  max-height: 500px;
+  width: 100%;
+  object-fit: fill;
+}
+.first-ep {
+  text-align: center;
+  margin-top: 30px;
+}
+.cover-ep {
+  height: 300px;
+  width: 300px;
+  margin-top: 30px;
+}
+.button-box {
+  margin-top: 30px;
+}
+.click-button {
+  height: 40px;
+  width: 150px;
+  border-radius: 15px;
+  border: none;
+}
    
 }
