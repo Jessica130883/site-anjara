@@ -166,5 +166,20 @@
 #my-button {
   color: gray;
 }
+.bio {
+  margin-top: 100px;
+  text-align: center;
+}
+.bio-box {
+  height: 150px;
+  width: 400px;
+  margin: auto;
+}
+.bio-text {
+  padding-top: 50px;
+}
+.click-bio {
+  margin-top: 10px;
+}
    
 }
