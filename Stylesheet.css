@@ -106,7 +106,7 @@
 }
 @media screen and (min-width: 769px) {
 
-  .socials {
+.socials {
     display: inline-block;
 }
 .socials-box {
@@ -120,6 +120,7 @@
 .photo-header {
   position: relative;
 }
+
 .title-name {
   position: absolute;
   left: 50%;
@@ -129,10 +130,20 @@
   opacity: 0.4;
   font-size: 80px;
 }
-video {
-  max-height: 500px;
-  width: 100%;
-  object-fit: fill;
+
+.text-title {
+  
+  animation-name: couleur;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes couleur{
+  from{
+      color: black;
+  }
+  to{
+      color: pink;
+  }
 }
 .first-ep {
   text-align: center;
