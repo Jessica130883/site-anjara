@@ -21,6 +21,21 @@
     opacity: 0.4;
     font-size: 80px;
   }
+  #title {
+    position: absolute;
+    left: -100px;
+    animation: apparition 1s ease-in-out forwards;
+  }
+  @keyframes apparition {
+    0% {
+      left: -100px;
+      opacity: 0;
+    }
+    100% {
+      left: 0;
+      opacity: 1;
+    }
+  }
   .cover-ep {
     height: 250px;
     width: 250px;
@@ -153,6 +168,7 @@
   height: 300px;
   width: 300px;
   margin-top: 30px;
+  border-radius: 5px;
 }
 .button-box {
   margin-top: 30px;
@@ -181,9 +197,50 @@
 .click-bio {
   margin-top: 10px;
 }
+.title-myvideo {
+  margin-bottom: 30px;
+}
 .video-box {
   text-align: center;
   margin-top: 130px;
 }
+.news-box {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.title-news {
+  margin-bottom: 20px;
+}
+table {
+  margin: auto;
+}
+.contact-box {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 250px;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  row-gap: 5px;
+}
+.pic-gallery {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.contact-title {
+  margin-bottom: 10px;
+}
+
    
 }
