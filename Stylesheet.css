@@ -220,11 +220,14 @@ table {
   margin-top: 50px;
   margin-bottom: 100px;
 }
+.carousel {
+  display: none;
+}
 .grid {
   display: grid;
   grid-template-columns: 250px 250px 250px;
   grid-template-rows: 250px;
-  column-gap: 20px;
+
   justify-content: center;
   align-items: center;
   row-gap: 5px;
@@ -237,6 +240,10 @@ table {
   align-items: center;
   
   
+}
+.socials-box-bottom {
+  margin-top: 80px;
+  text-align: center;
 }
 .contact-title {
   margin-bottom: 10px;
