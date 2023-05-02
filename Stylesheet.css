@@ -59,44 +59,7 @@
     border-radius: 20px;
     border: none;
   }
-  .bio {
-    text-align: center;
-  }
-  .title-bio {
-    margin-bottom: 10px;
-  }
-  .bio-text {
-    margin-bottom: 30px;
-  }
-  .bio-button {
-    height: 40px;
-    width: 120px;
-    border-radius: 20px;
-    border: none;
-  }
-  .click-bio {
-    margin-bottom: 30px;
-  }
-  .title-myvideo {
-    margin-bottom: 30px;
-  }
-  .video-box {
-    text-align: center;
-  }
-  .news-box {
-    text-align: center;
-  }
-  .title-news {
-    height: 60px;
-    width: 200px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  td {
-    border-top: 1px solid black;
-  }
+ 
  
 .socials {
     display: inline-block;
@@ -105,19 +68,10 @@
     text-align: center;
     margin-top: 10px;
 }
-.contact-box {
-    text-align: center;
-    margin-top: 30px;
-}
-.contact-title {
-    margin-bottom: 20px;
-}
-.contact-me {
-    margin-bottom: 5px;
-}
-.contact-mgt {
-    margin-bottom: 30px;
-}
+
+
+
+
 }
 @media screen and (min-width: 769px) {
 
@@ -170,6 +124,7 @@
   margin-top: 30px;
   border-radius: 5px;
 }
+
 .button-box {
   margin-top: 30px;
 }
@@ -182,84 +137,13 @@
 #my-button {
   color: gray;
 }
-.bio {
-  margin-top: 100px;
-  text-align: center;
-}
-.bio-box {
-  height: 150px;
-  width: 400px;
-  margin: auto;
-}
-.bio-text {
-  padding-top: 50px;
-}
-.click-bio {
-  margin-top: 10px;
-}
-.title-myvideo {
-  margin-bottom: 30px;
-}
-.video-box {
-  text-align: center;
-  margin-top: 130px;
-}
-.news-box {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 60px;
-}
-.title-news {
-  margin-bottom: 20px;
-}
-table {
-  margin: auto;
-}
-.contact-box {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
-.carousel {
-  display: none;
-}
-.grid {
-  display: grid;
-  grid-template-columns: 250px 250px 250px;
-  grid-template-rows: 250px;
 
-  justify-content: center;
-  align-items: center;
-  row-gap: 5px;
-}
-.pic-gallery {
-  height: 300px;
-  width: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  
-}
-.socials-box-bottom {
-  margin-top: 80px;
-  text-align: center;
-}
-.contact-title {
-  margin-bottom: 10px;
-}
-.bottom-page {
-  display: flex;
-  margin-top: 50px;
-  justify-content: center;
-}
-footer {
-  height: 30px;
-  width: 100%;
-  margin-top: 90px;
-  text-align: center;
 
-}
+
+
+
+
+
 
    
 }
