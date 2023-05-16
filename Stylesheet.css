@@ -68,6 +68,16 @@
     text-align: center;
     margin-top: 10px;
 }
+.title-dates {
+  margin-bottom: 20px;
+}
+.next-gigs {
+  padding-bottom: 20px;
+}
+.dates-content {
+  margin: 15px;
+  list-style: none;
+}
 .concerts {
   text-align: center;
   background-color: black;
