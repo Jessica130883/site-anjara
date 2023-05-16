@@ -270,6 +270,18 @@ footer {
 .concerts {
   text-align: center;
   margin-top: 90px;
+  background-color: black;
+  height: 300px;
+}
+.dates-content, .title-dates, .next-gigs {
+  color: white;
+}
+.title-dates {
+  padding-top: 50px;
+}
+.dates-content {
+  margin: 30px;
+  list-style: none;
 }
 .video-clip {
   text-align: center;
@@ -352,6 +364,9 @@ img:nth-child(5) {
   margin-top: 80px;
   margin-bottom: 60px;
   text-align: center;
+}
+.booking-email {
+  margin-top: 20px;
 }
 footer {
   padding-bottom: 60px;
