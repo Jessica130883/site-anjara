@@ -96,6 +96,12 @@
 video {
   height: 300px;
   width: 350px;
+  margin-bottom: 20px;
+  
+}
+.link-YT {
+  display: block;
+  margin: auto;
 }
 .bio-box {
   text-align: center;
