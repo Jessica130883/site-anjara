@@ -125,6 +125,7 @@
     transform: translateX(-200px);
     opacity: 0;
   }
+ 
 }
 
 .pic-ctn {
@@ -157,8 +158,30 @@ img:nth-child(4) {
 img:nth-child(5) {
   animation-delay: 8s;
 }
-
-
+.title-newsletter {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contact-section {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.booking-email {
+  margin-top: 10px;
+}
+footer {
+  text-align: center;
+  padding-bottom: 30px;
+  background-color: pink;
+}
+.infos-footer {
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+.socials-box {
+  padding-top: 30px;
+}
 }
 @media screen and (min-width: 769px) {
 
@@ -224,13 +247,5 @@ img:nth-child(5) {
 #my-button {
   color: gray;
 }
-
-
-
-
-
-
-
-
    
 }
