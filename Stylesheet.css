@@ -350,6 +350,18 @@ img:nth-child(5) {
 }
 .contact-section {
   margin-top: 80px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+footer {
+  padding-bottom: 60px;
+  background-color: #ffc0cb;
+}
+.socials-box {
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.infos-footer {
   text-align: center;
 }
 }
