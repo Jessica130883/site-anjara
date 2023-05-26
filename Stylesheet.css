@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+  background-color: black;
+}
 @media  screen and (max-width: 768px) {
 
   .background-header {
@@ -207,10 +209,12 @@ footer {
 
 .socials {
     display: inline-block;
+    
 }
 .socials-box {
   text-align: center;
-  margin-top: 10px;
+  background-color: white;
+  height: 50px;
 }
 .background-header {
  height: 650px;
@@ -238,7 +242,7 @@ footer {
 }
 @keyframes couleur{
   from{
-      color: black;
+      color: white;
   }
   to{
       color: pink;
@@ -248,11 +252,15 @@ footer {
   text-align: center;
   margin-top: 30px;
 }
+
 .cover-ep {
   height: 300px;
   width: 300px;
   margin-top: 30px;
   border-radius: 5px;
+}
+.content-EP, .songs {
+  color: white;
 }
 
 .button-box {
@@ -288,6 +296,9 @@ footer {
   margin-top: 150px;
   
 }
+.title-video {
+  color: white;
+}
 .btn-YT {
   display: block;
   margin: auto;
@@ -297,9 +308,18 @@ footer {
   text-decoration: none;
 }
 .bio-box {
-  text-align: center;
-  max-width: 800px;
   margin: auto;
+  max-width: 800px;
+  
+}
+.title-bio {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  color: white;
+}
+.bio-content {
+  color: white;
 }
  
 @keyframes display {
@@ -360,6 +380,10 @@ img:nth-child(5) {
   
   text-align: center;
 }
+.title-newsletter {
+  margin-bottom: 50px;
+  color: white;
+}
 .contact-section {
   margin-top: 80px;
   margin-bottom: 60px;
@@ -370,7 +394,7 @@ img:nth-child(5) {
 }
 footer {
   padding-bottom: 60px;
-  background-color: #ffc0cb;
+  background-color: white;
 }
 .socials-box {
   padding-top: 30px;
