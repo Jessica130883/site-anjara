@@ -234,6 +234,9 @@ footer {
   opacity: 0.4;
   font-size: 80px;
 }
+.first-ep {
+padding-top: 150px;
+}
 
 .text-title {
   
@@ -305,13 +308,21 @@ footer {
   display: block;
   margin: auto;
   margin-top: 40px;
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
 }
 .link-YT {
   text-decoration: none;
 }
+.video-clip {
+  margin-bottom: 200px;
+}
 .bio-box {
   margin: auto;
   max-width: 800px;
+  padding-bottom: 100px;
   
 }
 .title-bio {
@@ -381,6 +392,7 @@ img:nth-child(5) {
 .newsletter-part {
   
   text-align: center;
+  margin-top: 150px;
 }
 .title-newsletter {
   margin-bottom: 50px;
