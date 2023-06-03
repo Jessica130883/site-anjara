@@ -5,8 +5,18 @@
 body {
   background-color: black;
 }
+body, div {
+  margin: 0;
+  padding: 0;
+}
 @media  screen and (max-width: 768px) {
 
+  .socials-box {
+    background-color: white;
+  }
+  .socials {
+    padding: 50px;
+  }
   .background-header {
     height: 300px;
     width: 100%;
@@ -215,9 +225,14 @@ footer {
   text-align: center;
   background-color: white;
   height: 50px;
+  width: 100%;
+  margin-bottom: -10px;
 }
-
+.header-box {
+  margin-top: -32px;
+}
 .background-header {
+
  height: 650px;
  width: 100%;
 }
