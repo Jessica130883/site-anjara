@@ -281,6 +281,25 @@ padding-top: 150px;
 .content-EP, .songs {
   color: white;
 }
+.tracklist-container {
+  text-align: center;
+}
+
+.tracklist-title {
+  display: inline-block;
+  color: white;
+  width: 200px;
+}
+
+.tracklist-songs {
+  display: inline-block;
+  width: 200px;
+}
+
+.song-title {
+  display: none;
+  color: white;
+}
 
 .button-box {
   margin-top: 30px;
