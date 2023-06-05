@@ -367,6 +367,8 @@ padding-top: 150px;
 }
 .bio-content {
   color: white;
+  margin: 20px;
+  text-align: justify;
 }
  
 @keyframes display {
