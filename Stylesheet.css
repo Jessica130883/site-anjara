@@ -269,7 +269,8 @@ padding-top: 150px;
 }
 .first-ep {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 200px;
 }
 
 .cover-ep {
@@ -312,6 +313,12 @@ padding-top: 150px;
 }
 #my-button {
   color: gray;
+}
+.divider {
+  height: 1px;
+  width: 400px;
+  background-color: white;
+  margin: 0 auto;
 }
 .concerts {
   text-align: center;
@@ -369,6 +376,11 @@ padding-top: 150px;
   color: white;
   margin: 20px;
   text-align: justify;
+}
+.title-galerie {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
 }
  
 @keyframes display {
